@@ -6,17 +6,18 @@ export default {
   ],
   theme: {
     fontFamily: {
-      display: ["poppins","sans-serif"],
+      display: ["poppins", "sans-serif"],
     },
     extend: {
-      primary: "#05B6D3",
-      secondary: "#EF863E",
+      colors: {
+        primary: "#05B6D3",
+        secondary: "#EF863E",
+      },
+      backgroundImage: {
+        'login-bg-img': "url('./src/assets/images/bg-image.jpg')",
+        'signup-bg-img': "url('./src/assets/images/signup-bg-image.jpeg')",
+      },
     },
-    backgroundImage: {
-      'login-bg-img': "url('./src/assets/images/bg-image.jpg')",
-      'signup-bg-img': "url('./src/assets/images/signup-bg-image.jpeg')",
-    }
   },
   plugins: [],
 }
-
