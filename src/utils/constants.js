@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://journey-story-6ldh.onrender.com';
