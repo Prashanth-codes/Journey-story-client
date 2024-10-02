@@ -56,10 +56,10 @@ const Login = () => {
       <div className='container h-screen flex items-center justify-center px-20 mx-auto'>
         <div className="w-2/4 h-[90vh] flex items-end bg-login-bg-img bg-cover bg-center rounded-lg p-10 z-50">
           <div>
-            <h4 className='text-3xl text-white font-bold leading-[50px]'>
+            <h4 className='text-3xl text-black font-bold leading-[50px]'>
               Your Memorable <br />Journeys
               </h4>
-            <p className='text-[15px] text-white leading-6 pr-7 mt-4 '>
+            <p className='text-[15px] text-black leading-6 pr-7 mt-4 '>
               Keep you journey experiences and memories in your personal
               travel journal.
             </p>
